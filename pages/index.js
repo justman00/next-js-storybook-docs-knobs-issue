@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Demo from '../components/Demo/Demo'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Demo content={'hi'} />
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
